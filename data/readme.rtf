@@ -1,0 +1,222 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red193\green193\blue193;}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c80088\c80088\c79988;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Dataset: Synthetic + Real Financial Returns for Graphical Models\
+---------------------------------------------------------------\
+\
+This dataset is designed for a Master-level project on Bayesian Networks\
+and Markov Networks applied to financial data. It contains daily return\
+time series for a market index, sector indices, and individual assets.\
+\
+All returns are expressed in DECIMAL form:\
+    0.01  =  1% daily return\
+\
+\
+1. Market variable\
+------------------\
+\
+MKT\
+    Broad Market Index (synthetic / proxy for overall market movement)\
+\
+This variable represents the common market-wide factor that affects\
+all sectors and assets.\
+\
+\
+2. Sector variables\
+------------------\
+\
+There are 10 sector-level return series. Each sector represents a\
+group of economically related assets.\
+\
+Sector variables:\
+\
+SEC01  Technology\
+SEC02  Financials\
+SEC03  Energy\
+SEC04  Healthcare\
+SEC05  Consumer Discretionary\
+SEC06  Consumer Staples\
+SEC07  Industrials\
+SEC08  Utilities\
+SEC09  Materials\
+SEC10  Communication Services\
+\
+Sector returns can be interpreted as sector indices or representative\
+portfolios. They act as intermediate variables between the market and\
+individual assets.\
+\
+\
+3. Asset variables\
+------------------\
+\
+There are 100 individual assets. Each asset belongs to exactly ONE\
+sector, as specified in the file: map.csv\
+\
+Assets by sector:\
+\
+\
+SEC01 \'97 Technology\
+-----------------\
+TECH_Apex\
+TECH_Nova\
+TECH_Pulse\
+TECH_Vertex\
+TECH_Quantum\
+TECH_Silicon\
+TECH_Logic\
+TECH_Fusion\
+TECH_Vector\
+TECH_Neural\
+\
+\
+SEC02 \'97 Financials\
+-----------------\
+FIN_Capital\
+FIN_Trust\
+FIN_Pioneer\
+FIN_Alliance\
+FIN_Mercury\
+FIN_Horizon\
+FIN_Crest\
+FIN_Fortress\
+FIN_Dynasty\
+FIN_Summit\
+\
+\
+SEC03 \'97 Energy\
+-------------\
+ENRG_PetroCore\
+ENRG_Atlas\
+ENRG_Flux\
+ENRG_Terra\
+ENRG_NovaOil\
+ENRG_PowerOne\
+ENRG_Vortex\
+ENRG_Frontier\
+ENRG_Pulse\
+ENRG_Exxonis\
+\
+\
+SEC04 \'97 Healthcare\
+-----------------\
+HLTH_BioGenix\
+HLTH_MediCore\
+HLTH_Vita\
+HLTH_NeuroTech\
+HLTH_PharmaOne\
+HLTH_LifeSpan\
+HLTH_Cura\
+HLTH_Healix\
+HLTH_Synapse\
+HLTH_PulseMed\
+\
+\
+SEC05 \'97 Consumer Discretionary\
+-----------------------------\
+CONS_Luxora\
+CONS_RetailX\
+CONS_Motion\
+CONS_NovaStyle\
+CONS_ApexBuy\
+CONS_Spark\
+CONS_Vibe\
+CONS_UrbanCo\
+CONS_Flex\
+CONS_NextGen\
+\
+\
+SEC06 \'97 Consumer Staples\
+-----------------------\
+STPL_FoodCorp\
+STPL_PureLife\
+STPL_Harvest\
+STPL_HomeCare\
+STPL_Essentia\
+STPL_PrimeFoods\
+STPL_Naturex\
+STPL_DailyGoods\
+STPL_CleanWay\
+STPL_BasicCo\
+\
+\
+SEC07 \'97 Industrials\
+------------------\
+INDUS_Machina\
+INDUS_SteelWorks\
+INDUS_AeroSys\
+INDUS_DriveTech\
+INDUS_BuildPro\
+INDUS_CoreLogix\
+INDUS_HeavyLift\
+INDUS_Vector\
+INDUS_Foundry\
+INDUS_NexGen\
+\
+\
+SEC08 \'97 Utilities\
+----------------\
+UTIL_GridOne\
+UTIL_PowerFlow\
+UTIL_ClearEnergy\
+UTIL_WaterWorks\
+UTIL_Electra\
+UTIL_NorthGrid\
+UTIL_SouthPower\
+UTIL_InfraCore\
+UTIL_Voltis\
+UTIL_HydroNet\
+\
+\
+SEC09 \'97 Materials\
+----------------\
+MAT_ChemCore\
+MAT_Metallica\
+MAT_Forge\
+MAT_Mineralix\
+MAT_Composite\
+MAT_AlloyOne\
+MAT_Element\
+MAT_StoneWorks\
+MAT_Refine\
+MAT_Carbonix\
+\
+\
+SEC10 \'97 Communication Services\
+-----------------------------\
+COMM_MediaNet\
+COMM_StreamX\
+COMM_Connecta\
+COMM_Signal\
+COMM_NovaComm\
+COMM_Broadcast\
+COMM_LinkUp\
+COMM_Pulse\
+COMM_CloudCast\
+COMM_TeleSphere\
+\
+\
+\
+4. Files\
+--------\
+\
+market.csv\
+    Main dataset with daily returns.\
+\
+map.csv\
+    Asset-to-sector mapping (one sector per asset).\
+\
+readme.txt\
+\
+5. IMPORTANT NOTES\
+-----------------\
+\
+- This dataset is synthetic.\
+- Asset and sector names are fictitious but economically realistic.\
+\
+}
